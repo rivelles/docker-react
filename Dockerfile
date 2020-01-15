@@ -9,4 +9,5 @@ FROM nginx
 EXPOSE 80
 COPY --from=builder /webapp/build /usr/share/nginx/html
 
+# novo comentario
 # Cria uma imagem a partir da imagem-base node:alpine, roda o comando npm install e joga o conteúdo da pasta 'build' no diretório do nginx
